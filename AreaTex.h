@@ -27,16 +27,12 @@ POSSIBILITY OF SUCH DAMAGE.
 The views and conclusions contained in the software and documentation are 
 those of the authors and should not be interpreted as representing official
 policies, either expressed or implied, of the copyright holders.*/
-
-
 #ifndef AREATEX_H
 #define AREATEX_H
-
 #define AREATEX_WIDTH 160
 #define AREATEX_HEIGHT 560
 #define AREATEX_PITCH (AREATEX_WIDTH * 2)
 #define AREATEX_SIZE (AREATEX_HEIGHT * AREATEX_PITCH)
-
 /*Stored in R8G8 format. Load it in the following format:
  *-DX9:D3DFMT_A8L8 
  *-DX10:DXGI_FORMAT_R8G8_UNORM*/
@@ -14976,5 +14972,4 @@ static const unsigned char areaTexBytes[] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
     0x00, 0x00, 0x00, 0x00
 };
-
 #endif
